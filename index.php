@@ -5,7 +5,7 @@ require_once __DIR__ . '/db_movies.php';
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,7 @@ require_once __DIR__ . '/db_movies.php';
 </head>
 <body>
     <div class="container mt-5">
-        <h1>LISTA DEI FILM IN LIBRERIA</h1>
+        <h1>LISTA DEI FILM PRESENTI IN LIBRERIA</h1>
 
         <div class="row">
             <?php foreach ($db_movies as $movie): ?>
