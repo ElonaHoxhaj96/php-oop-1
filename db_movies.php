@@ -10,6 +10,6 @@ $db_movies = [
 
 ];
 
-var_dump($db_movies)
+// var_dump($db_movies)
 ?>
 
